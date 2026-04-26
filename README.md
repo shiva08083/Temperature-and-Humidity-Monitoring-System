@@ -1,15 +1,18 @@
 # Temperature-and-Humidity-Monitoring-System
 This project measures temperature and humidity using a DHT sensor and displays the values on the Serial Monitor. It is useful for weather monitoring, smart homes, and IoT-based environmental systems.
-Components Required
+
+Components Required :
 Arduino Uno
 DHT11 or DHT22 Sensor
 Jumper wires
 Breadboard (optional)
-Connections
+
+Connections :
 VCC → 5V
 GND → GND
 DATA → Pin 2
-Code
+
+Code :
 C++
 #include "DHT.h"
 
@@ -42,7 +45,8 @@ void loop() {
 
   delay(2000);
 }
-Working
+
+Working :
 The DHT sensor reads temperature and humidity
 Arduino processes the data
 Values are displayed on the Serial Monitor every 2 seconds
